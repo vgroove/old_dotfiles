@@ -18,3 +18,16 @@ set incsearch	" search as characters are entered
 " move vertically by visual line
 nnoremap j gj
 nnoremap k gk
+
+""""""""""""""WINDOWS"""""""""""""" 
+" Window navigation
+nmap <C-j> <C-w>j
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
+nmap <C-h> <C-w>h
+" Split window vertically
+nmap <leader>v <C-w>v<C-w>l
+" Split window horizontally
+nmap <leader>s <C-w>s<C-w>j
+" Close current split
+nmap <leader>x <C-w>q
