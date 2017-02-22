@@ -43,13 +43,18 @@ inoremap <C-t> <Esc>:tabnew<CR>
 
 """"""""""""""CLIPBOARD""""""""""""""
 " Copy to clipboard
+" Selected text
 vnoremap  <leader>y  "+y
+" To end of line
 nnoremap  <leader>Y  "+yg_
 nnoremap  <leader>y  "+y
+" Entire line
 nnoremap  <leader>yy  "+yy
 
 " Paste from clipboard
+" After cursor
 nnoremap <leader>p "+p
+" Before cursor
 nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
