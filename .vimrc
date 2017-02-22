@@ -34,9 +34,9 @@ nmap <leader>x <C-w>q
 
 """"""""""""""TABS""""""""""""""
 " Browser-like tab navigation
-nnoremap <C-S-tab> :tabprevious<CR>
-nnoremap <C-tab>   :tabnext<CR>
-nnoremap <C-t>     :tabnew<CR>
-inoremap <C-S-tab> <Esc>:tabprevious<CR>i
-inoremap <C-tab>   <Esc>:tabnext<CR>i
-inoremap <C-t>     <Esc>:tabnew<CR>
+nnoremap <C-b> :tabprevious<CR>
+nnoremap <C-n> :tabnext<CR>
+nnoremap <C-t> :tabnew<CR>
+inoremap <C-b> <Esc>:tabprevious<CR>i
+inoremap <C-n> <Esc>:tabnext<CR>i
+inoremap <C-t> <Esc>:tabnew<CR>
