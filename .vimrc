@@ -33,7 +33,7 @@ nmap <leader>s <C-w>s<C-w>j
 nmap <leader>x <C-w>q
 
 """"""""""""""TABS""""""""""""""
-" Browser-like tab navigation
+" Quicker tab navigation
 nnoremap <C-b> :tabprevious<CR>
 nnoremap <C-n> :tabnext<CR>
 nnoremap <C-t> :tabnew<CR>
