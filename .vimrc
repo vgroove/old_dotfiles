@@ -40,3 +40,16 @@ nnoremap <C-t> :tabnew<CR>
 inoremap <C-b> <Esc>:tabprevious<CR>i
 inoremap <C-n> <Esc>:tabnext<CR>i
 inoremap <C-t> <Esc>:tabnew<CR>
+
+""""""""""""""CLIPBOARD""""""""""""""
+" Copy to clipboard
+vnoremap  <leader>y  "+y
+nnoremap  <leader>Y  "+yg_
+nnoremap  <leader>y  "+y
+nnoremap  <leader>yy  "+yy
+
+" Paste from clipboard
+nnoremap <leader>p "+p
+nnoremap <leader>P "+P
+vnoremap <leader>p "+p
+vnoremap <leader>P "+P
