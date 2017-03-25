@@ -1,7 +1,7 @@
 """"""""""""""Kevin's VIMRC""""""""""""""
 
 """"""""""""""PLUGINS""""""""""""""
-" Deoplete
+
 " Plug - plugin manager
 call plug#begin('~/.config/nvim/plugged')
 
